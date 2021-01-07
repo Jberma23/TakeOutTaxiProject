@@ -1,6 +1,6 @@
 const prod = {
     url: {
-        BASE_URL: 'https://takeoutproject.herokuapp.com/api'
+        BASE_URL: 'https://takeouttaxi-backend.herokuapp.com'
     }
 };
 const dev = {
