@@ -1,0 +1,17 @@
+<div>
+    <div>
+        <h1 id="AppName">Takeout Truck Stop</h1>
+        <h3 id="AppDescription">Welcome to the future of takeout!</h3>
+    </div>
+    <mat-toolbar>
+        <span class="toolbar-flex"></span>
+        <nav mat-tab-nav-bar mat-align-nav-bar="center" id="navigation_bar">
+            <a mat-tab-link [routerLink]="['/']">Home</a>
+            <a mat-tab-link [routerLink]="['/trucks']">Trucks</a>
+            <a mat-tab-link [routerLink]="['/menus']">Menus</a>
+            <a mat-tab-link [routerLink]="['/orders']">Orders</a>
+            <a mat-tab-link [routerLink]="['/login']">Login</a>
+        </nav>
+        <span class="toolbar-flex"></span>
+    </mat-toolbar>
+</div>

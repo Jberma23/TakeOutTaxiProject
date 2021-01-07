@@ -1,0 +1,29 @@
+
+div#main-card{
+    margin-top: 20vh;
+}
+#header{
+    place-content: center;
+    #login-title{
+
+    }
+}
+
+mat-card {
+    max-width: 500px;
+    margin: 2em auto;
+    text-align: center;
+    padding: 30px;
+  }
+  #footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  mat-form-field {
+    display: block;
+  }
+  #action{
+      .button{
+          width: 30%;
+      }
+  }

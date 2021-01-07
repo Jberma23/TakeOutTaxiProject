@@ -1,0 +1,29 @@
+#AppName{
+    text-align: center;
+}
+#AppDescription{
+    text-align: center;
+}
+mat-toolbar{
+    background-color: blueviolet;
+    position: relative;
+    width: 100%;
+    span{
+        background-color: blueviolet;
+    }
+    nav{
+        background-color: blueviolet;
+        a{
+            color: white;
+        }
+    }
+
+}
+
+.toolbar-flex {
+    flex: 1 0.5 auto;
+  }
+.mat-tab-links {
+    align-content: center;
+    display: inline-block;
+}

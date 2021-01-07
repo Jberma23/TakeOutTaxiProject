@@ -1,0 +1,30 @@
+<div id="main-card">
+    <mat-card>
+        <mat-card-header id="header">
+            <!-- <div mat-card-avatar class="example-header-image"></div> -->
+            <mat-card-title id="login-title">Login</mat-card-title>
+        </mat-card-header>
+        <br>
+        <mat-card-content id="main-content">
+            <mat-form-field class="inputs">
+                <mat-label>Username:</mat-label>
+                <input matInput placeholder="Username">
+                <mat-error></mat-error>
+            </mat-form-field>
+            <mat-form-field class="inputs">
+                <mat-label>Password:</mat-label>
+                <input matInput placeholder="password">
+                <mat-error></mat-error>
+            </mat-form-field>
+        </mat-card-content>
+        <br>
+        <mat-card-actions id="action">
+            <button class="button" mat-raised-button color="primary">Login</button>
+        </mat-card-actions>
+        <br>
+        <mat-card-footer id="footer">
+            <a id="link1" [routerLink]="['/reset']">Forgot your password?</a>
+            <a id="link2" [routerLink]="['/register']">Create an account</a>
+        </mat-card-footer>
+    </mat-card>
+</div>
