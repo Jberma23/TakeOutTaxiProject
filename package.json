@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "cd Frontend && ng",
     "start": "cd Frontend && ng serve",
-    "build": "cd Frontend && ng build --prod && cd ../Backend",
+    "build": "cd Frontend && ng build --prod",
     "test": "cd Frontend && ng test",
     "lint": "cd Frontend && ng lint",
     "e2e": "cd Frontend && ng e2e"
